@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="Home">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="683dp"
+
+        android:orientation="vertical"
+        app:layout_anchor="@+id/linearLayout3"
+        app:layout_anchorGravity="center">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="408dp"
+                    android:layout_height="285dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/homesinfondoblanca" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFEB3B"></LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="HOME"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_anchor="@+id/linearLayout"
+            app:layout_anchorGravity="bottom|center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFEB3B"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="531dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+           <LinearLayout
+             android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="150dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="35dp"
+                   android:background="@drawable/botones_home"
+                   android:backgroundTint="#2DFFFFFF"
+                   android:orientation="vertical">
+
+                   <ImageButton
+                       android:id="@+id/btnPerfil"
+                       android:layout_width="74dp"
+                       android:layout_height="76dp"
+                       android:layout_marginLeft="30dp"
+                       android:background="@drawable/ic_baseline_person_24"
+                       android:backgroundTint="@color/white" />
+
+                   <TextView
+                       android:layout_width="140dp"
+                       android:layout_height="49dp"
+                       android:background="#07171313"
+                       android:text="MI PERFIL"
+                       android:textAlignment="center"
+                       android:textColor="#100F0F"
+                       android:textSize="15dp">
+
+                   </TextView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="145dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginLeft="40dp"
+                   android:background="@drawable/botones_home"
+                   android:backgroundTint="#2DFFFFFF"
+                   android:orientation="vertical">
+
+                   <ImageButton
+                       android:id="@+id/btnPublicaciones"
+                       android:layout_width="67dp"
+                       android:layout_height="65dp"
+                       android:layout_marginLeft="35dp"
+                       android:background="@drawable/ic_baseline_add_a_photo_24"
+                       android:backgroundTint="@color/white" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="49dp"
+                       android:background="#07171313"
+                       android:text="CREAR PUBLICACIONES"
+                       android:textAlignment="center"
+                       android:textColor="#100F0F"
+                       android:textSize="15dp">
+
+                   </TextView>
+
+               </LinearLayout>
+           </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/botones_home"
+                    android:backgroundTint="#2DFFFFFF"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnChat"
+                        android:layout_width="74dp"
+                        android:layout_height="76dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/ic_chat"
+                        android:backgroundTint="@color/white" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="49dp"
+                        android:background="#07171313"
+                        android:text="CHAT"
+                        android:textAlignment="center"
+                        android:textColor="#100F0F"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/botones_home"
+                    android:backgroundTint="#2DFFFFFF"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnVerPublicaciones"
+                        android:layout_width="67dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/ic_photo_24"
+                        android:backgroundTint="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:background="#07171313"
+                        android:text="PUBLICACIONES"
+                        android:textAlignment="center"
+                        android:textColor="#100F0F"
+                        android:textSize="15dp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

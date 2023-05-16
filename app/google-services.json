@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130728399280",
+    "project_id": "compicar-d69b5",
+    "storage_bucket": "compicar-d69b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130728399280:android:190151d6bc2609e3f60675",
+        "android_client_info": {
+          "package_name": "com.example.compicar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130728399280-2otu711g4ipr886vv0lk3rbjdootik45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhIXlWO1rXfHdRu9AD2ay19GKfDILeXpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130728399280-2otu711g4ipr886vv0lk3rbjdootik45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
