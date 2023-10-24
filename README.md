@@ -29,7 +29,7 @@ Aquí se muestran algunas capturas de pantalla de la interfaz de usuario de Comp
 
 ## Presentación de Canvas
 
-Puedes encontrar una presentación de Canvas que muestra la visión general del proyecto en el siguiente enlace: [Presentación de Canvas]([enlace/a/la/presentacion]([[https://www.canva.com/design/DAFhyZG99Ck/yEdaBO-84RISchJw7l6-TA/edit?utm_content=DAFhyZG99Ck&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAFhyZG99Ck/_isF5L4E6LKOLqTQv8G3Pg/view?utm_content=DAFhyZG99Ck&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)))
+Puedes encontrar una presentación de Canvas que muestra la visión general del proyecto en el siguiente enlace: [Presentación de Canvas]([enlace/a/la/presentacion](https://www.canva.com/design/DAFhyZG99Ck/_isF5L4E6LKOLqTQv8G3Pg/view?utm_content=DAFhyZG99Ck&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 ## Mejoras Futuras
 
 1. Sistema de mensajería integrado.
